@@ -1,0 +1,101 @@
+<!Doctype html>
+<html>
+<head>
+<title>DAY 1</title>
+<style>
+	*{
+		box-sizing:border-box;
+	}
+	body{
+		margin:0;
+		background:MVI_9491-1.jpg;
+	}
+	nav{
+		background:MVI_9491-1.jpg;
+		width:100%
+		overflow:auto;
+	}
+	ul{
+		margin:0;
+		padding:0;
+		list-style:none;
+	}
+	li{
+		float:left;
+	}
+	nav a{
+		width:549px;
+		display:block;
+		text-decoration:none;
+		text-align:center;
+		background:black;
+		font-size:17px;
+		color:white;
+		padding:30px 5px;
+		font-family:Arial;
+	}
+	nav a:hover{
+		background:white;
+		color:black;
+	}
+	.container{
+		max-width:1200px;
+		margin:auto;
+		overflow:auto;
+	}
+	.gallery{
+		margin:5px;
+		border:4px solid black;
+		float:left;
+		width:390px;
+	}
+	.gallery img{
+		width:100%;
+		height:auto:
+	}
+	.desc{
+		padding:15px;
+		text-align:center;
+	}		
+</style>		
+</head>
+<body background="MVI_9491-1.jpg">
+<nav>
+	<ul>
+		<li><b><a href="DMH MAIN PAGE.html">HOME</a></b></li>
+		<li><b><a href="">ABOUT ME</a></b></li>
+	</ul>		
+</nav>
+<br>
+</br>
+<br>
+</br>
+<br>
+</br>
+<div class ="container">
+	<div class ="gallery">
+		<img src ="img8.jfif">
+			<div class ="desc"><b>Emotional & Relational</b></div>
+	</div>
+	<div class ="gallery">
+		<img src ="img8.jfif">
+			<div class ="desc"><b>Cognitve & Aptitudinal</b></div>
+	</div>
+	<div class ="gallery">
+		<img src ="img8.jfif">
+			<div class ="desc"><b>Spiritual</b></div>
+	</div>
+	<div class ="gallery">
+		<img src ="img8.jfif">
+			<div class ="desc"><b>Physical</b></div>
+	</div>
+	<div class ="gallery">
+		<img src ="img8.jfif">
+			<div class ="desc"><b>Environmental</b></div>
+	</div>
+	<div class ="gallery">
+		<img src ="img8.jfif">
+			<div class ="desc"><b>Financial</b></div>
+	</div>
+</body>
+</html>
